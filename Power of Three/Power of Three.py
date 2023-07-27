@@ -1,23 +1,3 @@
-"""
-Given an integer, write a function to determine if it is a power of three.
-
-Example 1:
-
-Input: 27
-Output: True
-
-Example 2:
-
-Input: 0
-Output: False
-
-Example 3:
-
-Input: 9
-Output: True
-
-
-"""
 def powerOfThree(n):
     import math
     boolean = True
