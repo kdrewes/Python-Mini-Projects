@@ -30,9 +30,9 @@ for i in range(m):
     try:
         commands = input(f'{i+1}) ').split()
 
-        permission = permissions[commands[0]]
+        abbreviation = permissions[commands[0]]
 
-        if permission in system[commands[1]]:
+        if abbreviation in system[commands[1]]:
             collectResult.append('Ok')
         else:
             collectResult.append('Access denied')
