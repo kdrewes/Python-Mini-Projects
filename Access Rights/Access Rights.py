@@ -25,7 +25,7 @@ m = int(input('\nInput number of operations to the files: '))
 # Declare list which collects the result of each output
 collectResult = []
 
-print('\nInput operation followed by file name: : ')
+print('\nInput operation followed by file name: ')
 for i in range(m):
     try:
         commands = input(f'{i+1}) ').split()
